@@ -31,6 +31,6 @@ steps:
   continueOnError: true
 
 - script:
-    npx cypress-ntlm open 
+    npx cypress-ntlm run 
   displayName: 'run e2e tests'
   continueOnError: true
