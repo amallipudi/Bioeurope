@@ -21,16 +21,11 @@ steps:
   displayName: 'npm install'
 
 - script:
-    npx cypress run 
-  displayName: 'run e2e tests'
-  continueOnError: true
-
-- script:
     npm install --save-dev cypress-ntlm-auth
   displayName: 'ntlm'
   continueOnError: true
 
 - script:
     npx cypress-ntlm run 
-  displayName: 'run e2e tests'
+  displayName: 'NTLM-run e2e tests'
   continueOnError: true
