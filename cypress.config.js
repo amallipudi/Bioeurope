@@ -5,7 +5,7 @@ module.exports = defineConfig({
     experimentalModifyObstructiveThirdPartyCode: true,
 chromeWebSecurity: false,
 defaultCommandTimeout: 6000,
-baseUrl: 'http://web04',
+
   },
   
   
