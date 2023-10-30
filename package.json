@@ -4,7 +4,8 @@
   "description": "Configuration changes :",
   "main": "index.js",
   "scripts": {
-    "test": "cypress-ntlm open"
+    "test": "cypress-ntlm open",
+    "test2": "cypress-ntlm run"
   },
   "author": "gauravs",
   "license": "ISC",
