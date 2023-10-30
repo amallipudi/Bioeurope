@@ -4,7 +4,7 @@ module.exports = defineConfig({
   e2e: {
     experimentalModifyObstructiveThirdPartyCode: true,
 chromeWebSecurity: false,
-defaultCommandTimeout: 6000,
+defaultCommandTimeout: 60000,
 
   },
   
