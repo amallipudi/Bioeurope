@@ -39,7 +39,7 @@ Cypress.Commands.add('loginToAAD', (username, password) => {
     cy.origin('login.microsoftonline.com',()  =>{
       cy.get('input[type="email"]').type('amallipudi@targray.com'),
       cy.get('input[type="submit"]').click(),
-      cy.get('input[type="password"]').type('KLanand@456'),
+      cy.get('input[type="password"]').type('DDanand@456'),
       cy.get('input[type="submit"]').click(),
       cy.get('#idBtn_Back').click()
        
