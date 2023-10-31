@@ -29,3 +29,9 @@ steps:
     npx cypress-ntlm run 
   displayName: 'NTLM-run e2e tests'
   continueOnError: true
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'Saved failure screenshots'
+    publishLocation: 'Container'
