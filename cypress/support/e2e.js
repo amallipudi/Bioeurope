@@ -35,7 +35,7 @@ import "cypress-file-upload";
 import './commands';
 Cypress.Commands.add('loginToAAD', (username, password) => {
   cy.session('user-${username}', () =>{
-    cy.visit('login.microsoftonline.com')
+    cy.visit('https://make.powerapps.com/')
     cy.origin('login.microsoftonline.com',()  =>{
       cy.get('input[type="email"]').type('amallipudi@targray.com'),
       cy.get('input[type="submit"]').click(),
