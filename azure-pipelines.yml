@@ -26,7 +26,7 @@ steps:
   continueOnError: true
 
 - script:
-    npx cypress-ntlm run 
+    npx cypress-ntlm run --browser chrome
   displayName: 'NTLM-run e2e tests'
   continueOnError: true
 
